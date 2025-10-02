@@ -15,7 +15,7 @@ let video;
 // Variable for displaying the results on the canvas
 let label = "Model loading...";
 
-let imageModelURL = "https://teachablemachine.withgoogle.com/models/bXy2kDNi/";
+let imageModelURL = "https://teachablemachine.withgoogle.com/models/T8ysVtAvl/";
 
 function preload() {
   classifier = ml5.imageClassifier(imageModelURL + "model.json");
